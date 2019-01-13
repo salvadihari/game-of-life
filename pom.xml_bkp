@@ -388,7 +388,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-enforcer-plugin</artifactId>
-			<version>1.0</version>
+                        <version>1.0</version>maven-releases
                         <executions>
                             <execution>
                                 <id>enforce-versions</id>
@@ -495,16 +495,16 @@
             </reporting>
         </profile>
     </profiles>
-    <distributionManagement>
-    <repository>
-      <id>admin</id>
-      <name>Releases</name>
-      <url>http://localhost:8081/repository/maven-releases</url>
+    
+    <distributionmanagement>
+        
+        <repository>
+            
+    <id>repository</id>
+    <name>maven-releases</name>
+    <url>http://localhost:8081/repository/maven-releases/</url>
     </repository>
-    <snapshotRepository>
-      <id>admin</id>
-      <name>Snapshot</name>
-      <url>http://localhost:8081/repository/maven-snapshots</url>
-    </snapshotRepository>
-</distributionManagement> 
+        
+    </distributionmanagement>
+    
 </project>
