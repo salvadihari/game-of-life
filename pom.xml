@@ -498,7 +498,7 @@
     <distributionManagement>
     <repository>
       <id>admin</id>
-      <name>Releases</name>
+      <name>Release</name>
       <url>http://localhost:8081/repository/maven-releases</url>
     </repository>
     <snapshotRepository>
