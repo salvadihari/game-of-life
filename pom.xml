@@ -506,10 +506,5 @@
       <name>Snapshot</name>
       <url>http://localhost:8081/repository/maven-snapshots</url>
     </snapshotRepository>
-    <repository>
-      <id>admin</id>
-      <name>Release</name>
-      <url>http://localhost:8081/repository/game_of_life/</url>
-    </repository>
     </distributionManagement> 
     </project>
