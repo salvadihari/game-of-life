@@ -509,7 +509,7 @@
     <repository>
       <id>admin</id>
       <name>Release</name>
-      <url>http://localhost:8081/repository/game-of-life/</url>
+      <url>http://localhost:8081/repository/game_of_life/</url>
     </repository>
     </distributionManagement> 
     </project>
