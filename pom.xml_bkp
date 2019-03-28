@@ -499,14 +499,10 @@
 <distributionManagement>
  <repository>
   <id>nexus</id>
-   <name>maven-releases</name>
-   <url>http://localhost:8081/repository/maven-releases/</url>
+   <name>gam-of-lifee</name>
+   <url>http://localhost:8081/repository/gam-of-lifee/</url>
  </repository>
- <snapshotRepository>
-   <id>nexus</id>
-   <name>maven-snapshots</name>
-   <url>http://localhost:8081/repository/maven-snapshots/</url>
- </snapshotRepository>
+ 
 </distributionManagement>
         
 </project>
