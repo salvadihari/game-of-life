@@ -497,12 +497,16 @@
     </profiles>
     
 <distributionManagement>
- <repository>
-  <id>nexus</id>
-   <name>gam-of-lifee</name>
-   <url>http://localhost:8081/repository/gam-of-lifee/</url>
- </repository>
- 
+    <repository>
+      <id>admin</id>
+      <name>Release</name>
+      <url>http://localhost:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>admin</id>
+      <name>Snapshot</name>
+      <url>http://localhost:8081/repository/maven-snapshots</url>
+    </snapshotRepository>
 </distributionManagement>
         
 </project>
