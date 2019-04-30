@@ -495,7 +495,7 @@
             </reporting>
         </profile>
     </profiles>
-</build>
+ 
 <distributionManagement>
     <repository>
       <id>admin</id>
