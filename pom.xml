@@ -495,8 +495,8 @@
             </reporting>
         </profile>
     </profiles>
-    
-	<distributionManagement>
+</build>
+<distributionManagement>
     <repository>
       <id>admin</id>
       <name>Release</name>
@@ -508,5 +508,4 @@
       <url>http://localhost:8081/repository/maven-snapshots</url>
     </snapshotRepository>
 </distributionManagement>
-	
-    </project>
+</project>
