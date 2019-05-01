@@ -498,12 +498,12 @@
  <distributionManagement>
         <repository>
             <id>admin</id>
-            <name>Release</name>
+            <name>maven-releases</name>
             <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>admin</id>
-            <name>Snapshot</name>
+            <name>maven-releases</name>
             <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
