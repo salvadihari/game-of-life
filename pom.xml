@@ -495,14 +495,17 @@
             </reporting>
         </profile>
     </profiles>
-<distributionManagement>
-    <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://your-host:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
+   <distributionManagement>
     <repository>
-      <id>nexus-releases</id>
-      <url>http://your-host:8081/repository/maven-releases/</url>
+      <id>maven-releases</id>
+      <name>Release</name>
+      <url>http://localhost:8081/repository/maven-releases/</url>
     </repository>
-  </distributionManagement>
+    <snapshotRepository>
+      <id>maven-snapshots</id>
+      <name>Snapshot</name>
+      <url>http://localhost:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement> 
+   
 </project>
