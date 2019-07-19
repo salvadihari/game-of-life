@@ -503,7 +503,7 @@
         </repository>
         <snapshotRepository>
             <id>admin</id>
-            <name>maven-releases</name>
+            <name>maven-snapshots</name>
             <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
