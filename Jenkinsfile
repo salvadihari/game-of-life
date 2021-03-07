@@ -8,11 +8,11 @@ pipeline {
 		 }
 	 }
 	
-	 stage('Test'){
+	 <!--- stage('Test'){
 	   steps {
 		sh 'mvn -Dmaven.test.skip=true'
 		}
-	}
+	} --->
         stage('Do you want to proceed..?') {
                  steps {
                     input('Do you want to proceed?')
