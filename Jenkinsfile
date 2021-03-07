@@ -7,11 +7,7 @@ pipeline {
 		sh 'mvn clean'
 		 }
 	 }
-	 stage('validate'){
-	   steps {
-		sh 'mvn validate'
-		}
-	}
+	
 	 stage('Test'){
 	   steps {
 		sh 'mvn test'
